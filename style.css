@@ -157,6 +157,14 @@ top: 100px;
     object-fit: cover;
 }
 
+/*Sparepart*/
+.sparepart{
+    .rounded{
+        border-radius: 100px !important;
+    }
+}
+
+
 /* Testimonials */
 .testimonial-card {
     transition: all 0.3s ease;
@@ -231,14 +239,14 @@ top: 100px;
             margin: 0 auto;
         }
     }
-    .about{
-        .center-mobile{
-            text-align: center;
-        }
-        .left-mobile{
-            text-align: left;
-        }
+
+    .center-mobile{
+        text-align: center;
     }
+    .left-mobile{
+        text-align: left;
+    }
+    
 }
 
 /* Animation */
