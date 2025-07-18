@@ -16,6 +16,12 @@ body {
 .text-gold {
     color: var(--gold) !important;
 }
+.text-lightblack{
+    color:  #191912 !important;
+}
+.text-light{
+    color:  #c3c3c3 !important;
+}
 
 /* Background Colors */
 .bg-gold {
@@ -29,6 +35,9 @@ body {
 }
 .bg-black {
     background-color: var(--dark) !important;
+}
+.bg-gray{
+    background-color: #6c757d;
 }
 
 /* Buttons */
