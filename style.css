@@ -190,10 +190,18 @@ body {
 
 
 
-/* Responsive Adjustments */
+/* Responsive Adjustments / Mobile */
 @media (max-width: 768px) {
     .hero-banner {
-        height: 60vh;
+        height: 50vh;
+        img{
+            top: 115px;
+        }
+        img.logo-tengah {
+            width: 70%;
+            display: block;
+            margin: 0 auto;
+        }
     }
     
     .hero-overlay {
@@ -208,6 +216,19 @@ body {
         left: 50%;
         transform: translateX(-50%);
     }
+    .d-flex {
+        a{
+            margin: 0 auto;
+        }
+    }
+    .about{
+        .center-mobile{
+            text-align: center;
+        }
+        .left-mobile{
+            text-align: left;
+        }
+    }
 }
 
 /* Animation */
@@ -219,3 +240,5 @@ body {
 .fade-in {
     animation: fadeIn 1s ease-in;
 }
+
+
