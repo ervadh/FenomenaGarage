@@ -46,6 +46,12 @@ html{
     box-shadow: -2px 0rem 1.5rem -9px rgb(183 119 35 / 54%) !important;
 }
 
+/*Width*/
+.w-85{
+    width: 85%;
+}
+
+
 /* Buttons */
 .btn-gold {
     background-color: var(--gold);
