@@ -43,6 +43,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+
+    //Sold
+    document.querySelectorAll('.card[data-status="sold"]').forEach(card => {
+        const overlay = document.createElement('div');
+        overlay.className = 'sold-overlay';
+        overlay.textContent = 'SOLD';
+        card.prepend(overlay);
+    });
+
     // Initialize tooltips
     const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     tooltipTriggerList.map(function(tooltipTriggerEl) {
