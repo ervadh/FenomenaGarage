@@ -97,7 +97,7 @@ top: 100px;
 
 /* Navigation */
 .position-fixed.navigation{
-    background-color: rgb(41 40 25 / 13%);
+    background-color: rgb(84 80 33 / 13%);
     backdrop-filter: blur(2px);
     border-bottom: 1px solid var(--medium-gray);
     width: 100%;
