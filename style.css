@@ -97,8 +97,8 @@ top: 100px;
 
 /* Navigation */
 .position-fixed.navigation{
-    background-color: rgba(18, 18, 18, 0.85);
-    backdrop-filter: blur(10px);
+    background-color: rgb(41 40 25 / 13%);
+    backdrop-filter: blur(2px);
     border-bottom: 1px solid var(--medium-gray);
     width: 100%;
     position: fixed;
@@ -106,6 +106,14 @@ top: 100px;
     left: 0;
     z-index: 9;
 }
+.nav-link{
+    color: rgb(255 255 255);
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: var(--bs-dropdown-link-hover-color);
+    background-color: #221800;
+}
+
 
 /* Section Titles */
 .section-title {
@@ -144,6 +152,7 @@ top: 100px;
 .service-card {
     transition: transform 0.3s ease;
     border: none;
+    min-height: 460px;
 }
 
 .service-card:hover {
@@ -155,6 +164,8 @@ top: 100px;
     width: 100%;
     object-fit: cover;
 }
+
+
 
 /*Sale*/
 .card-img-top {
